@@ -1,0 +1,45 @@
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 250px; 
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 20px; 
+  box-sizing: border-box;
+}
+
+.sidebar .logo {
+  width: 80%; 
+  margin-bottom: 30px;
+}
+
+.sidebar img {
+  width: 100%; 
+  height: auto; 
+}
+
+.sidebar button {
+  width: 80%; 
+  padding: 15px 20px;
+  margin: 10px 0; 
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar button:hover {
+  background-color: darkgreen;
+}
+
+.sidebar button:last-child {
+  background-color: red;
+}
+
+.sidebar button:last-child:hover {
+  background-color: darkred;
+}
