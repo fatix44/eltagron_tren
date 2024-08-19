@@ -7,7 +7,7 @@
   height: 100vh;
   background-color: #f7f7f7;
   box-sizing: border-box;
-  width: 100%; /* Tam genişlik */
+  width: 100%; 
 }
 
 .login-logo {

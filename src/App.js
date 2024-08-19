@@ -8,7 +8,7 @@ function App() {
   const [userRole, setUserRole] = useState(null);
   const [selectedMenu, setSelectedMenu] = useState('Tren Geçiş Saatleri'); //Ilk menu default selected
 
-  const handleLogin = (username, password) => { //Test icin basit id/pw kontrol. Backend calismasi gerekir. Sonrasinda setUserRole fonksyonu user_type degiskenine gore ayarlanabilir
+  /*const handleLogin = (username, password) => { //Test icin basit id/pw kontrol. Backend calismasi gerekir. Sonrasinda setUserRole fonksyonu user_type degiskenine gore ayarlanabilir
     if (username === 'admin' && password === 'password') {
       setIsLoggedIn(true);
       setUserRole('admin');
@@ -19,7 +19,7 @@ function App() {
       alert('Kullanıcı adı veya şifre hatalı!');
     }
   };
-
+*/
   const handleLogout = () => {
     setIsLoggedIn(false); 
     setUserRole(null);
